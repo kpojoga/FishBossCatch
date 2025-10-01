@@ -9,11 +9,11 @@ PlayerSettings:
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
   defaultScreenOrientation: 4
-  targetDevice: 2
+  targetDevice: 0
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: FishAdventuresStudio
-  productName: Fish Bass Bonnaza
+  companyName: Alyssa Nicole Ardizzone
+  productName: Fish Boss Catch
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -39,7 +39,9 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
+  m_SplashScreenLogos:
+  - logo: {fileID: 21300000, guid: ea23fe6f591434dbc8a51b2856900a86, type: 3}
+    duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
@@ -82,7 +84,7 @@ PlayerSettings:
   runInBackground: 0
   captureSingleScreen: 0
   muteOtherAudioSources: 0
-  Prepare IOS For Recording: 0
+  Prepare IOS For Recording: 1
   Force IOS Speakers When Recording: 0
   deferSystemGesturesMode: 0
   hideHomeButton: 0
@@ -139,7 +141,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 1.1
+  bundleVersion: 1.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -162,7 +164,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Standalone: com.DefaultCompany.2DProject
-    iPhone: com.fishadventures.fishbass
+    iPhone: com.fishbosdbaibd.catchjsek
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -186,7 +188,7 @@ PlayerSettings:
   strictShaderVariantMatching: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 12.0
+  iOSTargetOSVersionString: 13.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 12.0
@@ -287,14 +289,15 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: f5d6abe5f2a270a429993c6258c9f629, type: 3}
+      m_Icon: {fileID: 2800000, guid: 35fdd9629f6baf4408eabd1d0907aaf5, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: iPhone
     m_Icons:
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 35fdd9629f6baf4408eabd1d0907aaf5, type: 3}
       m_Width: 180
       m_Height: 180
       m_Kind: 0
@@ -319,7 +322,8 @@ PlayerSettings:
       m_Height: 76
       m_Kind: 0
       m_SubKind: iPad
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 35fdd9629f6baf4408eabd1d0907aaf5, type: 3}
       m_Width: 120
       m_Height: 120
       m_Kind: 3
@@ -339,7 +343,8 @@ PlayerSettings:
       m_Height: 40
       m_Kind: 3
       m_SubKind: iPad
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 35fdd9629f6baf4408eabd1d0907aaf5, type: 3}
       m_Width: 87
       m_Height: 87
       m_Kind: 1
@@ -364,7 +369,8 @@ PlayerSettings:
       m_Height: 29
       m_Kind: 1
       m_SubKind: iPad
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 35fdd9629f6baf4408eabd1d0907aaf5, type: 3}
       m_Width: 60
       m_Height: 60
       m_Kind: 2
@@ -384,7 +390,8 @@ PlayerSettings:
       m_Height: 20
       m_Kind: 2
       m_SubKind: iPad
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 35fdd9629f6baf4408eabd1d0907aaf5, type: 3}
       m_Width: 1024
       m_Height: 1024
       m_Kind: 4
@@ -767,7 +774,7 @@ PlayerSettings:
   ps4IncludedModules: []
   ps4attribVROutputEnabled: 0
   monoEnv: 
-  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: 354496837f0bb54499698da809f22c44, type: 3}
+  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: d215c3620dd584c978aa3aa4580e1511, type: 3}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
@@ -899,7 +906,13 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -919,11 +932,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: a7bc0521-09b4-4091-9b1b-e95272c84e9a
+  cloudProjectId: fdd2d0e9-b349-4dd3-9023-80fb6c9250c0
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: app_new (5)
-  organizationId: unity_5c36aaa7112d2c163d12
+  projectName: Fish Bass Bonnaza
+  organizationId: kristinapozhoga1407
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
