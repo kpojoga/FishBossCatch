@@ -6,12 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Intro.unity
-    guid: c2146f2e976534721b760ecac04fa3d6
-  - enabled: 1
-    path: Assets/FishBassGameFiles/Scenes/Menu.unity
+    path: Assets/GAME/Scenes/Menu.unity
     guid: 72fafa3f939167041bf95fd2cb7ecb4a
   - enabled: 1
-    path: Assets/FishBassGameFiles/Scenes/Game.unity
+    path: Assets/GAME/Scenes/Game.unity
     guid: 54768e4853331884e839a5e062d4ba5b
   m_configObjects: {}
