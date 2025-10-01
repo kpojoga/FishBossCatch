@@ -1,0 +1,34 @@
+{
+	"AchievementIDs":[
+		{
+			"InternalID":"NovicePredator",
+			"AppleID":"id86786743466",
+			"GoogleID":""
+		},
+		{
+			"InternalID":"SeaHunter",
+			"AppleID":"id46878676878",
+			"GoogleID":""
+		},
+		{
+			"InternalID":"KingoftheOcean",
+			"AppleID":"id54464684688",
+			"GoogleID":""
+		}
+	],
+	"LeaderboardIDs":[
+		{
+			"InternalID":"FishBassLeaderboard",
+			"AppleID":"id46546876875",
+			"GoogleID":""
+		}
+	],
+	"CloudVariables":[],
+	"AppleSupported":true,
+	"GoogleSupported":false,
+	"GoogleAppID":"",
+	"GoogleSetupRun":false,
+	"DebugModeEnabled":false,
+	"Version":"2.7.5",
+	"SettingsLocation":"0"
+}
